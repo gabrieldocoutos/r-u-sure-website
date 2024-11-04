@@ -13,8 +13,6 @@ function handleYes() {
 // Send a message on "my_bus".
 channel.postMessage('This is a test message.');
 channel.close();
-
-  window.location.href = callbackOrigin
   channel.close();
 
 }
