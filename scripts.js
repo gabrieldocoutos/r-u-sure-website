@@ -14,7 +14,7 @@ function handleYes() {
 channel.postMessage('This is a test message.');
 channel.close();
 
-  window.location.href = callbackOrigin
+//   window.location.href = callbackOrigin
 
 }
 
