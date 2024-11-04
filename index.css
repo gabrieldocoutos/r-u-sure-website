@@ -16,3 +16,27 @@ body {
     align-items: center;
     
 }
+
+.content {
+    margin-bottom: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.button {
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin: 0 12px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
