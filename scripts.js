@@ -6,7 +6,9 @@ document.querySelector("#content").textContent = `r u sure u want to go to ${cal
 
 
 function handleYes() {
+localStorage.setItem(`@r-u-sure#${callbackOrigin}`, 1)
   window.location.href = callbackOrigin
+
 }
 
 function handleNo() {
